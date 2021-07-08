@@ -1,0 +1,24 @@
+# ignore All
+/*
+!.gitignore
+
+# exception .c .h .cydwr .cyprj
+!/PSoc4,pcUART.cydsn
+/PSoc4,pcUART.cydsn/*
+!/PSoc4,pcUART.cydsn/*.c
+!/PSoc4,pcUART.cydsn/*.s
+!/PSoc4,pcUART.cydsn/*.h
+!/PSoc4,pcUART.cydsn/*.cydwr
+!/PSoc4,pcUART.cydsn/*.cyprj
+
+# exception .cysch
+!/PSoc4,pcUART.cydsn/TopDesign
+/PSoc4,pcUART.cydsn/TopDesign/*
+!/PSoc4,pcUART.cydsn/TopDesign/*.cysch
+
+#exception .hex
+!/PSoc4,pcUART.cydsn/CortexM0
+/PSoc4,pcUART.cydsn/CortexM0/*
+!/PSoc4,pcUART.cydsn/CortexM0/ARM_GCC_541
+/PSoc4,pcUART.cydsn/CortexM0/ARM_GCC_541/Debug/*
+!/PSoc4,pcUART.cydsn/CortexM0/ARM_GCC_541/Debug/*.hex
